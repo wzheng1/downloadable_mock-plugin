@@ -7,7 +7,7 @@ License: ASL 2.0
 Vendor: Red Hat
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: openshift
-Source-Url: https://github.com/wsun1/downloadable-mock-plugin.git
+Source-Url: https://github.com/wsun1/downloadable_mock-plugin.git
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.tar.gz
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.tar.gz
