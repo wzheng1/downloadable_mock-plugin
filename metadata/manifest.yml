@@ -29,6 +29,8 @@ Group-Overrides:
 Publishes:
   publish-db-connection-info:
     Type: "ENV:NET_TCP:db:connection-info"
+  publish-garbage-info:
+    Type: "ENV:NET_TCP:garbage:info"
 Endpoints:
   - Private-IP-Name:   EXAMPLE_IP1
     Private-Port-Name: EXAMPLE_PORT1
