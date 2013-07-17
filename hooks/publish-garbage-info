@@ -4,5 +4,5 @@ cartridge_instance_dir=$OPENSHIFT_MOCK_PLUGIN_DIR
 source $OPENSHIFT_MOCK_PLUGIN_DIR/mock-plugin.conf
 
 touch $MOCK_STATE/publish-garbage-info_called
-
+export $MOCK_PLUGIN_GARBAGE=wsunistesting
 echo "MOCK_PLUGIN_GARBAGE=wsunistesting"
