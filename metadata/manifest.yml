@@ -1,0 +1,37 @@
+Name: downloadable-mock-plugin
+Cartridge-Short-Name: DOWNLOADABLEMOCK_PLUGIN
+Display-Name: Downloadable Mock Plugin Cartridge 0.1
+Description: "A mock plugin cartridge for development use only."
+Version: '0.1'
+License: ASL 2.0
+Vendor: Red Hat
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: openshift
+#Source-Url: https://github.com/bmeng/downloadable-mock-plugin.git
+Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.tar.gz
+#Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.zip
+#Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.tar.gz
+#Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.zip
+#Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.tar
+Categories:
+  - service
+  - database
+  - embedded
+Provides:
+  - downloadable-mock-plugin-0.1
+  - downloadable-mock-plugin
+Scaling:
+  Min: 1
+  Max: 1
+Group-Overrides:
+  - components:
+    - downloadable-mock-plugin
+Publishes:
+  publish-db-connection-info:
+    Type: "ENV:NET_TCP:db:connection-info"
+Endpoints:
+  - Private-IP-Name:   EXAMPLE_IP1
+    Private-Port-Name: EXAMPLE_PORT1
+    Private-Port:      8080
+    Public-Port-Name:  EXAMPLE_PUBLIC_PORT1
+Install-Build-Required: false
