@@ -11,7 +11,7 @@ Cartridge-Vendor: wsun
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.tar.gz
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/invalid.tar.gz
-Source-Url: https://github.com/bmeng/downloadable_mock-plugin/raw/master/downloadable-mock-plugin.zip
+Source-Url: https://github.com/wsun1/downloadable_mock-plugin/raw/master/downloadable-mock-plugin.zip
 #Source-Url: https://github.com/bmeng/downloadable-mock-plugin/raw/master/downloadable-mock-plugin.tar
 Source-Md5: 3450017c60199ba2645ee2a53fece9ef
 Categories:
