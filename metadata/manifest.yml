@@ -29,7 +29,9 @@ Group-Overrides:
     - downloadable-mock-plugin
 Publishes:
   publish-db-connection-info:
-    Type: "ENV:NET_TCP:db:connection-info"
+     set-all: Type: "ENV:*"
+     Required: false
+    #Type: "ENV:NET_TCP:db:connection-info"
 Endpoints:
   - Private-IP-Name:   EXAMPLE_IP1
     Private-Port-Name: EXAMPLE_PORT1
